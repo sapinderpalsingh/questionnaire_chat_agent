@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "question": "What is the capital of France?",
+        "options": [
+            {"label": "Berlin", "next_question": 2},
+            {"label": "Madrid", "next_question": 2},
+            {"label": "Paris", "next_question": 2},
+            {"label": "Rome", "next_question": 3}
+        ],
+        "answer": null
+    },
+    {
+        "id": 2,
+        "question": "What is the largest planet in our solar system?",
+        "options": [
+            {"label": "Earth", "next_question": 3},
+            {"label": "Mars", "next_question": 3},
+            {"label": "Jupiter", "next_question": 3},
+            {"label": "Saturn", "next_question": 3}
+        ],
+        "answer": null
+    },
+    {
+        "id": 3,
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "options": [
+            {"label": "Harper Lee", "next_question": null},
+            {"label": "Mark Twain", "next_question": null},
+            {"label": "Ernest Hemingway", "next_question": null},
+            {"label": "F. Scott Fitzgerald", "next_question": null}
+        ],
+        "answer": null
+    }
+]
