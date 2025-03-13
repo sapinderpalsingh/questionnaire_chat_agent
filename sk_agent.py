@@ -13,9 +13,7 @@ from semantic_kernel.contents import ChatHistory
 from semantic_kernel.functions import KernelArguments
 
 async def main():
-    print("Hello from cba-questionnaire-agent!")
-
-    # Read the JSON file
+      # Read the JSON file
     file_path = 'questions\\questions_1.json'
     with open(file_path, 'r') as file:
         json_data = file.read()
