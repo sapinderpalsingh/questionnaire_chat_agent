@@ -52,15 +52,19 @@ This sample demonstrates how to create a semantic kernel chat agent that interac
 2. **Run the Script**:
 
    1. Clone the repo
+   1. Rename .env.template to .env and provide required values.
    1. Create virtual env and install dependencies
 
    ```
    uv venv --python=3.12
    source .venv/bin/activate
    uv sync
+   # Running Semantic Kernel chat completion agent
    uv run sk_agent.py
+   # Running Semantic kernel azure AI agent.
+   uv run ai_agent.py
    ```
-   - Execute the sk_agent.py script to start the semantic kernel chat agent.
+   
 
 3. **Interact with the Agent**:
    - Follow the prompts from the agent to answer the questions.
